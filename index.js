@@ -6,7 +6,7 @@ const instance = axios.create({
         Authorization: 'token fc747a7121a433bd45593cf4299e6c6c276809a3',
         'Content-Type': 'application/json; charset=utf-8'
     }
-});
+});1
 
 (async () => {
     try {
