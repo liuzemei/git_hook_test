@@ -8,6 +8,14 @@ const instance = axios.create({
     }
 });
 
+//  `${event.event} for ${event.payload.repository.full_name}`
+//  event.payload.sender.avatar_url
+//  event.payload.head_commit.message
+//  event.payload.head_commit.url
+
+
+
+
 (async () => {
     try {
         let secret = '1417856569'
