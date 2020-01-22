@@ -3,7 +3,7 @@ const axios = require('axios')
 const instance = axios.create({
     baseURL: 'https://api.github.com',
     headers: {
-        Authorization: 'token 2684427838d2807b891e41ac269fb0263ba8b1e4',
+        Authorization: 'token da267af6f5ae0952dc7cb35b9e0e795e88ba3406',
         'Content-Type': 'application/json; charset=utf-8'
     }
 });
